@@ -18,4 +18,4 @@ if uploaded_file is not None:
     
     # Display the second image on the right
     with col2:
-        st.image(second_image, caption='Second Image', use_column_width=True)
+        st.image(second_image, caption='Annotated Image', use_column_width=True)
