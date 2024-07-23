@@ -24,8 +24,8 @@ st.subheader("Number Plates Data")
 
 # Create a DataFrame to store the data
 df_data = {
-    "Class": [class_value],
-    "Number Plate": [number_plate]
+    "Class": ["bus"],
+    "Number Plate": ["AA 00 AA 0000"]
 }
 
 df = pd.DataFrame(df_data)
