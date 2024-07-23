@@ -21,8 +21,6 @@ if uploaded_file is not None:
     with col2:
         st.image(second_image, caption='Annotated Image', use_column_width=True)
 
-st.subheader("Number Plates Data")
-
 # Create a DataFrame to store the data
 df_data = {
     "Class": ["bus"],
