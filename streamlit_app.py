@@ -14,8 +14,7 @@ if uploaded_file is not None:
         st.image(uploaded_image, caption='Uploaded Image', use_column_width=True)
     
     # Placeholder for the second image (you can replace this with your own image path)
-    second_image_path = 'path_to_your_second_image.jpg'
-    second_image = Image.open(second_image_path)
+    second_image = uploaded_file
     
     # Display the second image on the right
     with col2:
