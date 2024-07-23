@@ -7,11 +7,10 @@ uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png
 
 if uploaded_file is not None:
     # Display the uploaded image
-    st.image(uploaded_file, caption='Uploaded Image', use_column_width=True)
+    image=st.image(uploaded_file, caption='Uploaded Image', use_column_width=True)
 
     # Placeholder for the second image (you can replace this with your own image path)
-    second_image_path = 'path_to_your_second_image.jpg'
-    second_image = Image.open(second_image_path)
+    second_image = Image.open(image)
 
     # Display the second image
     st.image(second_image, caption='Second Image', use_column_width=True)
